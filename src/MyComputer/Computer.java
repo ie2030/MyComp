@@ -19,23 +19,23 @@ package MyComputer;
 		
 	}
 	
-//	public Computer(double price, double weight, int hdd, int ram,
-//			double screensize, String model, String vendor) {
-//
-//		this.price = price;
-//		this.weight = weight;
-//		this.hdd = hdd;
-//		this.ram = ram;
-//		this.screensize = screensize;
-//		this.model = model;
-//		this.vendor = vendor;
-//	}
+	public Computer(double price, double weight, int hdd, int ram,
+			double screensize, String model, String vendor) {
+
+		this.price = price;
+		this.weight = weight;
+		this.hdd = hdd;
+		this.ram = ram;
+		this.screensize = screensize;
+		this.model = model;
+		this.vendor = vendor;
+	}
 
 	
 
 	public void print(String str) {
 
-		System.out.println(str);
+		System.out.println(str);//Hello Git
 	}
 
 	public void on() {
